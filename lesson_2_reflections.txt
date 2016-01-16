@@ -1,3 +1,8 @@
 What happens when you initialize a repository? Why do you need to do it?
 
 Initialize creates a new git repository with no commits with the items located in the current directory
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area allows for placement of new items to be placed in the respository before being committed. They must reside within the working directory. 
+
