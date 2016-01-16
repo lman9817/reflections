@@ -1,0 +1,24 @@
+
+The use of the diff command in with the two .js files helped identify an error in new code as it was able to find where sections of the code had been modified, which is where a mistake is likely to have occurred.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+Easy access to the history of a file would make it easier to debug code which was previously working, by identifying where changes have been made and hence narrow down the field of investigation for finding the bug.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+- Can create logical points for commits. i.e. when fixing a bug, adding new feature, etc
+- Not helpful for people who are forgetful.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+- Some projects require interlinking between multiple files for organisational or operation purposes but are both alter for functionality reasons.
+
+How can you use the commands git log and git diff to view the history of files?
+
+- git log shows all previous logged commits plus comments relating their use
+- git diff shows the difference in files between two different commits
+
+How might using version control make you more confident to make changes that could break something?
+
+- Able to track back through commits in order to find where an error occurred with relative ease. 
