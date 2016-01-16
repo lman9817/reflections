@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Initialize creates a new git repository with no commits with the items located in the current directory
