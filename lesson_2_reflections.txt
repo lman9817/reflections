@@ -6,3 +6,29 @@ How is the staging area different from the working directory and the repository?
 
 The staging area allows for placement of new items to be placed in the respository before being committed. They must reside within the working directory. 
 
+How can you use the staging area to make sure you have one commit per logical change?
+
+- Use of the staging area allows you to select inidividual files to add to a commit, hence breakingup commits which occur. 
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+- When making a change from a working version in order to test a new feature.
+- When attempting to change functionality which could potentially break other features
+- Branches would help by easily labelling where these changes originate from and can be taken back to
+
+How do the diagrams help you visualize the branch structure?
+
+- By showing the linked list type stucture of git commits and showing detached head states. As well as also showing when branches occur.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- creates a commit with two parents. 
+- Represented as two branches that merge at another point. Shows the fact that two commits next to each other in the log, may not necessarily be adjacent commits. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Pros
+- Doesnt merge unnecessary lines of code
+- allows adding of new features automatically
+Cons
+- Can break workflow unnecessarily
